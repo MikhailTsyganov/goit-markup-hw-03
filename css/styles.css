@@ -277,14 +277,22 @@ body {
 
 /* Portfolio */
 
+.section .filter {
+  margin-bottom: 50px;
+}
+
 .filter .button {
   color: var(--title-text-color);
-  background-color: #var(var(--second-bg-color));
+  background-color: (var(--second-bg-color));
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+
+  min-width: 38px;
+
+  padding: 6px 22px;
 }
 
 .filter .button:hover,
@@ -300,11 +308,17 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 .project-list .item {
   font-size: 16px;
   line-height: 1.88;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .project-list .link {
